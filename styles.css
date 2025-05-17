@@ -48,7 +48,7 @@ nav .item {
     overflow: hidden;
     position: absolute;
     top: 60px;
-    left: 50%; /* Set middle position */
+    left: 50%; 
     transform: translateX(-50%); /* Center the list */
     width: 150px; /* List width */
     background: var(--dropdown-color); 
