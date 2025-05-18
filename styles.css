@@ -69,11 +69,11 @@ nav .item {
 }
 
 .dropdown a:hover {
-    background: var(--color-primary); /* Change color when hovering */
+    background: var(--color-primary); 
 }
 
 .item:hover > .dropdown {
-    display: flex; /* Displayed on hover */
+    display: flex; 
 }
 
 .underline {
