@@ -1,7 +1,7 @@
 :root {
-    --color-primary: #7B68EE; 
-    --dropdown-color: #483D8B; 
-    --underline-color: #EED5D2; 
+    --color-primary: #2C7873; 
+    --dropdown-color: #004445; 
+    --underline-color: #6FB98F; 
 }
 
 body {
@@ -40,7 +40,7 @@ nav .item {
     min-width: auto;
     height: 60px;
     line-height: 60px;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ nav .item {
 .dropdown a {
     display: block;
     padding: 10px;
-    color: white;
+    color: #021C1E;
     text-decoration: none;
     font-size: 1.2rem; 
     text-align: center;
