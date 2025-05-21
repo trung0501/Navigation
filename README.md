@@ -4,7 +4,7 @@
 
 🧩 The main component of the program:
 
-📄 HTML
+📄 HTML:
 
   . nav: Tag containing the entire navigation bar.
 
@@ -14,7 +14,7 @@
 
   . div.underline: Dynamic underline effect bar below.
 
-🎨 CSS
+🎨 CSS:
 
   . Color variable (:root) to define the main color.
 
@@ -23,3 +23,27 @@
   . Hover effect to control the display of dropdown and underline.
 
   . Transition effect for underline.
+
+⚙️ Principle of operation:
+
+  1. When the user accesses:
+
+     . The navigation bar is displayed in the middle of the screen, with the items: Home, About, Skills, Contact.
+
+  2. When the user hovers:
+
+     . Go to the “Skills” item: The dropdown appears with 3 options.
+
+     . Go to any item: A small underline bar runs below that item, creating a sense of interaction.
+
+  3. The dropdown is displayed using CSS:
+
+     . Hidden by default (display: none).
+
+     . When hovering over the parent item (.item), the child dropdown will be displayed (display: flex).
+
+  4. Underline is controlled by CSS--hover-index:
+
+     . Calculating the underline position according to the position of the section being hover (Home is 0, about is 1 ...).
+
+     . The effect runs smoothly by transition.
