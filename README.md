@@ -47,3 +47,23 @@
      . Calculating the underline position according to the position of the section being hover (Home is 0, about is 1 ...).
 
      . The effect runs smoothly by transition.
+
+✅ Advantages:
+
+  . Beautifully harmonious color interface, corner, shady, smooth effect.
+
+  . Works entirely with HTML + CSS without JavaScript, easy to deploy.
+
+  . Intuitive and friendly Dropdown when Hover, Underline run smoothly, creating a sense of interaction.
+
+  . Easy to expand can add more items or discoloration, easy content. 
+
+⚠️ Limit: 
+
+  . Not responsive not optimized for mobile or small screens.
+
+  . No real links Items have no href, just empty <a> tags.
+
+  . No keyboard controls Dropdown cannot be accessed by tab/key, because there is no JavaScript support.
+
+  . Fixed number of items If more items are added, the underline needs to be recalculated manually (because width: 25% is fixed).
