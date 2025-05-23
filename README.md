@@ -6,23 +6,23 @@
 
 📄 HTML:
 
-  . nav: Tag containing the entire navigation bar.
+    . nav: Tag containing the entire navigation bar.
 
-  . a.item: Main items such as Home, About, Skills, Contact.
+    . a.item: Main items such as Home, About, Skills, Contact.
 
-  . div.dropdown: Submenu of Skills item (including skills: C#, Angular, Javascript).
+    . div.dropdown: Submenu of Skills item (including skills: C#, Angular, Javascript).
 
-  . div.underline: Dynamic underline effect bar below.
+    . div.underline: Dynamic underline effect bar below.
 
 🎨 CSS:
 
-  . Color variable (:root) to define the main color.
+    . Color variable (:root) to define the main color.
 
-  . Flexbox to layout horizontal and centered menu.
+    . Flexbox to layout horizontal and centered menu.
 
-  . Hover effect to control the display of dropdown and underline.
+    . Hover effect to control the display of dropdown and underline.
 
-  . Transition effect for underline.
+    . Transition effect for underline.
 
 ⚙️ Principle of operation:
 
@@ -50,20 +50,20 @@
 
 ✅ Advantages:
 
-  . Beautifully harmonious color interface, corner, shady, smooth effect.
+    . Beautifully harmonious color interface, corner, shady, smooth effect.
 
-  . Works entirely with HTML + CSS without JavaScript, easy to deploy.
+    . Works entirely with HTML + CSS without JavaScript, easy to deploy.
 
-  . Intuitive and friendly Dropdown when Hover, Underline run smoothly, creating a sense of interaction.
+    . Intuitive and friendly Dropdown when Hover, Underline run smoothly, creating a sense of interaction.
 
-  . Easy to expand can add more items or discoloration, easy content. 
+    . Easy to expand can add more items or discoloration, easy content. 
 
 ⚠️ Limit: 
 
-  . Not responsive not optimized for mobile or small screens.
+    . Not responsive not optimized for mobile or small screens.
 
-  . No real links Items have no href, just empty <a> tags.
+    . No real links Items have no href, just empty <a> tags.
 
-  . No keyboard controls Dropdown cannot be accessed by tab/key, because there is no JavaScript support.
+    . No keyboard controls Dropdown cannot be accessed by tab/key, because there is no JavaScript support.
 
-  . Fixed number of items If more items are added, the underline needs to be recalculated manually (because width: 25% is fixed).
+    . Fixed number of items If more items are added, the underline needs to be recalculated manually (because width: 25% is fixed).
